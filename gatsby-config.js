@@ -1,8 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Cole Bemis',
-    description:
-      'Frontend developer, designer, lifelong learner, dog lover. Studying computer science at Cal Poly. Intern at iFixit.',
+    description: 'Frontend developer, designer, lifelong learner, dog lover.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
