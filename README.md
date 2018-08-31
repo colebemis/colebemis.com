@@ -1,26 +1,22 @@
-# gatsby-starter-default
-The default Gatsby starter.
+# colebemis.com
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
+This repo contains the source code for [colebemis.com](https://colebemis.com).
 
-## Install
+## Project Setup
 
-Make sure that you have the Gatsby CLI program installed:
-```sh
-npm install --global gatsby-cli
+```shell
+# Clone the repo
+git clone https://github.com/colebemis/colebemis.com.git
+
+# Enter the repo
+cd colebemis.com
+
+# Install the dependencies
+npm install
+
+# Start local development
+npm run develop
 ```
 
-And run from your CLI:
-```sh
-gatsby new gatsby-example-site
-```
+> **Note:** This requires Node.js and npm to be set up locally, see [nodejs.org](https://nodejs.org) for more information.
 
-Then you can run it by:
-```sh
-cd gatsby-example-site
-gatsby develop
-```
-
-## Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
