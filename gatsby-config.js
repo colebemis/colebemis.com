@@ -5,8 +5,9 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
+    'gatsby-plugin-offline',
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'Cole Bemis',
         short_name: 'colebemis',
@@ -17,7 +18,6 @@ module.exports = {
         icon: 'src/images/colebemis-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-offline',
     {
       resolve: 'gatsby-mdx',
       options: {
@@ -25,6 +25,13 @@ module.exports = {
         defaultLayouts: {
           default: require.resolve('./src/components/layout.js'),
         },
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-63028889-3',
+        anonymize: true,
       },
     },
   ],
