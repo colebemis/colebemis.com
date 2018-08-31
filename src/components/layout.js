@@ -2,7 +2,7 @@ import { graphql, StaticQuery } from 'gatsby'
 import { node } from 'prop-types'
 import React from 'react'
 import Helmet from 'react-helmet'
-import Logo from '../components/Logo'
+import Logo from './Logo'
 import './layout.css'
 
 const Layout = ({ children }) => (
