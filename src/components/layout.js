@@ -1,9 +1,11 @@
+import { MDXProvider } from '@mdx-js/tag'
 import { graphql, StaticQuery } from 'gatsby'
+import { OutboundLink } from 'gatsby-plugin-google-analytics'
 import { node } from 'prop-types'
 import React from 'react'
 import Helmet from 'react-helmet'
-import Logo from './logo'
 import './layout.css'
+import Logo from './logo'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -32,7 +34,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <main>
           <Logo style={{ marginBottom: 64, color: 'var(--accent)' }} />
-          {children}
+          <MDXProvider components={{ a: OutboundLink }}>{children}</MDXProvider>
         </main>
       </>
     )}
