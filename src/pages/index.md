@@ -24,7 +24,7 @@ An open source tab manager made for tab hoarders like you.
 ### [Extend](https://github.com/colebemis/extend)
 Toggle your Chrome extensions on and off from the toolbar. Coming soon to the Chrome Web Store.
 
-### [Analog](https://usetabio.com)
+### [Analog](https://github.com/colebemis/analog)
 Replace your new tab page with a minimal analog clock.
 
 ## Work
