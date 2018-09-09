@@ -21,6 +21,9 @@ Simply beautiful open source icons designed with a focus on simplicity, consiste
 ### [Tabio](https://usetabio.com)
 An open source tab manager made for tab hoarders like you.
 
+### [color-variants](https://github.com/colebemis/color-variants)
+Generate light and dark variants of a color 
+
 ### [Extend](https://github.com/colebemis/extend)
 Toggle your Chrome extensions on and off from the toolbar. Coming soon to the Chrome Web Store.
 
