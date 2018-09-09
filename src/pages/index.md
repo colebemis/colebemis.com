@@ -12,11 +12,11 @@ Frontend developer, designer, lifelong learner, dog lover. Studying computer sci
 
 ## Projects
 
-### [PullBoard](https://pullboard.now.sh)
-A flexible dashboard that helps teams, maintainers, and contributors stay on top of open pull requests.
-
 ### [Feather](https://feathericons.com)
 Simply beautiful open source icons designed with a focus on simplicity, consistency, and usability.
+
+### [PullBoard](https://pullboard.now.sh)
+A flexible dashboard that helps teams, maintainers, and contributors stay on top of open pull requests.
 
 ### [Tabio](https://usetabio.com)
 An open source tab manager made for tab hoarders like you.
