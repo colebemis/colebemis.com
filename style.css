@@ -19,10 +19,15 @@ body {
   background-color: var(--bg);
 }
 
-main {
+#root {
   margin: 0 auto;
   padding: 64px 24px;
   max-width: 540px;
+}
+
+#logo {
+  margin-bottom: 64px;
+  color: var(--accent);
 }
 
 a {
@@ -35,22 +40,12 @@ a:hover {
   background-color: var(--highlight);
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   line-height: 1.25;
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
   border-bottom: 0;
 }
 

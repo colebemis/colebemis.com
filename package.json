@@ -3,28 +3,16 @@
   "version": "0.0.0",
   "author": "Cole Bemis <cole@colebemis.com>",
   "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
+    "build": "rimraf build && mkdir build && node build.js",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@mdx-js/mdx": "^0.15.0",
-    "@mdx-js/tag": "^0.15.0",
-    "gatsby": "next",
-    "gatsby-mdx": "^0.1.1",
-    "gatsby-plugin-google-analytics": "^1.0.31",
-    "gatsby-plugin-manifest": "next",
-    "gatsby-plugin-offline": "next",
-    "gatsby-plugin-react-helmet": "next",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-helmet": "^5.2.0"
-  },
   "devDependencies": {
-    "prettier": "^1.14.2"
+    "cheerio": "^1.0.0-rc.2",
+    "marked": "^0.5.1",
+    "prettier": "^1.14.2",
+    "rimraf": "^2.6.2"
   },
-  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/colebemis/colebemis.com"
