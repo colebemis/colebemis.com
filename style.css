@@ -4,8 +4,7 @@
   --bg: #fff;
   --accent: #eb3349;
   --highlight: #fbe9a3;
-  --sans-serif: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial,
-    sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+  --sans-serif: Barlow, sans-serif;
 }
 
 body {
@@ -59,7 +58,7 @@ h2 {
   padding: 8px 0;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.125em;
   border-bottom: 1px solid var(--border);
 }
 
