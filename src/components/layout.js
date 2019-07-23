@@ -23,6 +23,7 @@ function Layout({ children }) {
   return (
     <Styled.root>
       <Helmet>
+        <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
