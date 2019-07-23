@@ -3,18 +3,21 @@
   "version": "0.0.0",
   "author": "Cole Bemis <cole@colebemis.com>",
   "scripts": {
-    "build": "rimraf build && mkdir build && node build.js",
-    "format": "prettier --write '**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "develop": "gatsby develop",
+    "build": "gatsby build"
   },
-  "devDependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "marked": "^0.5.1",
-    "prettier": "^1.14.2",
-    "rimraf": "^2.6.2"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/colebemis/colebemis.com"
+  "repository": "colebemis/colebemis.com",
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@mdx-js/mdx": "^1.1.0",
+    "@mdx-js/react": "^1.0.27",
+    "gatsby": "^2.13.33",
+    "gatsby-plugin-mdx": "^1.0.15",
+    "gatsby-plugin-theme-ui": "^0.2.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "theme-ui": "^0.2.16",
+    "typeface-barlow": "0.0.71",
+    "typeface-inter": "^3.7.0"
   }
 }
