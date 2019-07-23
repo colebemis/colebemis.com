@@ -28,6 +28,7 @@ function Layout({ children }) {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <Global styles={{ body: { margin: 0 } }} />
       <Container>{children}</Container>
