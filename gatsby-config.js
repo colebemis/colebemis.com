@@ -5,6 +5,7 @@ module.exports = {
       'Frontend engineer, designer, lifelong learner, dog lover. Studying computer science at Cal Poly. Intern on the GitHub Design Systems team.',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-theme-ui',
     {
       resolve: 'gatsby-plugin-mdx',

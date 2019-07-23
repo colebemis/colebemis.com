@@ -13,9 +13,11 @@
     "@mdx-js/react": "^1.0.27",
     "gatsby": "^2.13.33",
     "gatsby-plugin-mdx": "^1.0.15",
+    "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-theme-ui": "^0.2.6",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-helmet": "^5.2.1",
     "theme-ui": "^0.2.16",
     "typeface-barlow": "0.0.71",
     "typeface-inter": "^3.7.0"
