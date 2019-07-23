@@ -13,7 +13,7 @@ export default {
     '5rem',
   ],
   fonts: {
-    sansSerif: 'Inter, sans-serif',
+    sansSerif: 'Inter, system-ui, sans-serif',
   },
   fontSizes: [
     '0.75rem',
