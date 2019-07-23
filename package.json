@@ -4,7 +4,8 @@
   "author": "Cole Bemis <cole@colebemis.com>",
   "scripts": {
     "develop": "gatsby develop",
-    "build": "gatsby build"
+    "build": "gatsby build",
+    "deploy": "gh-pages --dist public --repo git@github.com:colebemis/colebemis.github.io.git --branch master"
   },
   "repository": "colebemis/colebemis.com",
   "dependencies": {
@@ -15,6 +16,7 @@
     "gatsby-plugin-mdx": "^1.0.15",
     "gatsby-plugin-react-helmet": "^3.1.2",
     "gatsby-plugin-theme-ui": "^0.2.6",
+    "gh-pages": "^2.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-helmet": "^5.2.1",
