@@ -28,6 +28,10 @@ function Layout({ children }) {
         <meta name="description" content={description} />
         <meta property="og:title" content={title} />
         <meta property="og:description" content={description} />
+        <meta
+          property="og:image"
+          content="https://colebemis.com/og-image.png"
+        />
         <meta name="twitter:card" content="summary_large_image" />
       </Helmet>
       <Global styles={{ body: { margin: 0 } }} />
