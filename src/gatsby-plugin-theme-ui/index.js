@@ -1,7 +1,8 @@
 export default {
   colors: {
     text: '#333',
-    background: 'white',
+    background: '#FFF',
+    primary: '#5551FF',
   },
   fonts: {
     body: 'system-ui, sans-serif',
@@ -20,6 +21,13 @@ export default {
     },
     a: {
       color: 'inherit',
+      textDecoration: 'none',
+      borderBottom: '2px solid',
+      borderColor: 'rgba(0,0,0,0.2)',
+      ':hover': {
+        color: 'primary',
+        borderColor: 'currentColor',
+      },
     },
     h1: { fontSize: 6 },
     h2: { fontSize: 5 },
