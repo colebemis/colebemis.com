@@ -1,8 +1,16 @@
 export default {
+  useColorSchemeMediaQuery: true,
   colors: {
-    text: '#f7f7f7',
-    background: '#1a1a1a',
+    text: '#1a1a1a',
+    background: '#f7f7f7',
     secondary: '#808080',
+    modes: {
+      dark: {
+        text: '#f7f7f7',
+        background: '#1a1a1a',
+        secondary: '#808080',
+      },
+    },
   },
   fonts: {
     body: '"IBM Plex Sans", system-ui, sans-serif',
