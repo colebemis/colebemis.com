@@ -6,11 +6,17 @@ export default {
   fonts: {
     body: 'system-ui, sans-serif',
   },
-  fontSizes: [14, 16, 18, 20, 24, 32, 48, 64, 72, 96],
+  lineHeights: {
+    body: 1.5,
+  },
+  sizes: {
+    container: '60ch',
+  },
   styles: {
     root: {
       fontFamily: 'body',
       fontSize: 3,
+      lineHeight: 'body',
     },
   },
 }
