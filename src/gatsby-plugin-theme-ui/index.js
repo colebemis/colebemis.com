@@ -1,6 +1,6 @@
 export default {
   colors: {
-    text: 'black',
+    text: '#333',
     background: 'white',
   },
   fonts: {
@@ -17,6 +17,9 @@ export default {
       fontFamily: 'body',
       fontSize: 3,
       lineHeight: 'body',
+    },
+    a: {
+      color: 'inherit',
     },
   },
 }
