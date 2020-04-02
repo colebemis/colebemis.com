@@ -1,17 +1,28 @@
 export default {
   colors: {
-    text: '#333',
-    background: '#FFF',
-    primary: '#5551FF',
+    text: '#f7f7f7',
+    background: '#1a1a1a',
+    secondary: '#808080',
   },
   fonts: {
-    body: 'system-ui, sans-serif',
+    body: '"IBM Plex Sans", system-ui, sans-serif',
+  },
+  fontWeights: {
+    body: 400,
+    heading: 600,
   },
   lineHeights: {
     body: 1.5,
+    heading: 1.25,
   },
   sizes: {
     container: '60ch',
+  },
+  text: {
+    heading: {
+      fontWeight: 'heading',
+      lineHeight: 'heading',
+    },
   },
   styles: {
     root: {
@@ -23,17 +34,34 @@ export default {
       color: 'inherit',
       textDecoration: 'none',
       borderBottom: '2px solid',
-      borderColor: 'rgba(0,0,0,0.2)',
+      borderColor: 'secondary',
       ':hover': {
-        color: 'primary',
-        borderColor: 'currentColor',
+        borderColor: 'inherit',
       },
     },
-    h1: { fontSize: 6 },
-    h2: { fontSize: 5 },
-    h3: { fontSize: 4 },
-    h4: { fontSize: 3 },
-    h5: { fontSize: 2 },
-    h6: { fontSize: 1 },
+    h1: {
+      variant: 'text.heading',
+      fontSize: 6,
+    },
+    h2: {
+      variant: 'text.heading',
+      fontSize: 5,
+    },
+    h3: {
+      variant: 'text.heading',
+      fontSize: 4,
+    },
+    h4: {
+      variant: 'text.heading',
+      fontSize: 3,
+    },
+    h5: {
+      variant: 'text.heading',
+      fontSize: 2,
+    },
+    h6: {
+      variant: 'text.heading',
+      fontSize: 1,
+    },
   },
 }

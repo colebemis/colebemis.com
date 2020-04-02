@@ -12,5 +12,11 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
+      options: {
+        fonts: [{ family: 'IBM Plex Sans', variants: [400, 600] }],
+      },
+    },
   ],
 }
