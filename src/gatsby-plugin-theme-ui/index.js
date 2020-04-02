@@ -21,5 +21,11 @@ export default {
     a: {
       color: 'inherit',
     },
+    h1: { fontSize: 6 },
+    h2: { fontSize: 5 },
+    h3: { fontSize: 4 },
+    h4: { fontSize: 3 },
+    h5: { fontSize: 2 },
+    h6: { fontSize: 1 },
   },
 }
