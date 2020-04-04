@@ -3,10 +3,12 @@ module.exports = {
     title: 'Cole Bemis',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-theme-ui',
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
+        extensions: ['.mdx', '.md'],
         defaultLayouts: {
           default: require.resolve('./src/components/layout.js'),
         },
