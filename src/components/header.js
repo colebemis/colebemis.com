@@ -13,8 +13,11 @@ export default function Header() {
         p: 4,
       }}
     >
-      <Link to="/" sx={{ color: 'inherit', textDecoration: 'none' }}>
-        @colebemis
+      <Link
+        to="/"
+        sx={{ textDecoration: 'none', color: 'inherit', fontWeight: 'heading' }}
+      >
+        colebemis
       </Link>
       <button
         aria-label={
@@ -26,7 +29,7 @@ export default function Header() {
         sx={{
           display: 'grid',
           p: 1,
-          color: 'secondary',
+          color: 'text',
           background: 'transparent',
           border: 0,
           appearance: 'none',
