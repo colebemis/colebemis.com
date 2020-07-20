@@ -17,7 +17,6 @@
     "gatsby": "^2.20.10",
     "gatsby-plugin-mdx": "^1.1.4",
     "gatsby-plugin-page-creator": "^2.2.1",
-    "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-plugin-react-helmet": "^3.2.1",
     "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-source-filesystem": "^2.2.2",
@@ -25,6 +24,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-helmet": "^5.2.1",
-    "theme-ui": "^0.3.1"
+    "theme-ui": "^0.3.1",
+    "timeago.js": "^4.0.2"
   }
 }

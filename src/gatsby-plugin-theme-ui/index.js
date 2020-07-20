@@ -1,28 +1,18 @@
 export default {
-  useColorSchemeMediaQuery: true,
   colors: {
-    text: '#1a1a1a',
-    background: '#f7f7f7',
-    gray: '#aaa',
-    muted: '#eee',
-    accent: '#FF0080',
-    modes: {
-      dark: {
-        text: '#f7f7f7',
-        background: '#1a1a1a',
-        gray: '#808080',
-        muted: '#333',
-        accent: '#79FFE1',
-      },
-    },
+    text: 'rgba(0,0,0,0.87)',
+    background: '#fff',
+    muted: '#f0f0f0',
+    accent: '#eb4962',
   },
   fonts: {
-    body: '"IBM Plex Sans", system-ui, sans-serif',
-    mono: '"IBM Plex Mono", monospace',
+    body:
+      '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
+    mono: 'SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace',
   },
   fontWeights: {
     body: 400,
-    heading: 600,
+    heading: 700,
   },
   lineHeights: {
     body: 1.5,
@@ -31,7 +21,6 @@ export default {
   sizes: {
     container: '65ch',
   },
-  radii: [0, 4],
   text: {
     heading: {
       fontWeight: 'heading',
@@ -47,10 +36,10 @@ export default {
     a: {
       color: 'inherit',
       textDecoration: 'none',
-      borderBottom: '2px solid',
-      borderColor: 'gray',
+      borderBottom: '1px solid',
+      borderColor: 'currentColor',
       ':hover': {
-        borderColor: 'inherit',
+        color: 'accent',
       },
     },
     h1: {
@@ -81,22 +70,20 @@ export default {
       p: 3,
       bg: 'muted',
       overflowX: 'auto',
-      borderRadius: 1,
     },
     code: {
       fontFamily: 'mono',
+      fontSize: '80%',
     },
     inlineCode: {
-      p: 1,
-      color: 'accent',
+      p: '0.1em 0.25em',
       bg: 'muted',
       fontFamily: 'mono',
-      borderRadius: 1,
+      fontSize: '80%',
     },
     img: {
       maxWidth: '100%',
       boxSizing: 'content-box',
-      borderRadius: 1,
     },
     table: {
       display: 'block',
@@ -121,12 +108,12 @@ export default {
     blockquote: {
       mx: 0,
       px: 3,
-      borderLeft: '2px solid',
-      borderColor: 'gray',
+      borderLeft: '4px solid',
+      borderColor: 'muted',
     },
     hr: {
-      height: 2,
-      my: '1em',
+      height: 1,
+      my: '2em',
       bg: 'gray',
       border: 0,
     },

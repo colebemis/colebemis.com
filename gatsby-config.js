@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: 'Cole Bemis',
+    description:
+      'Building things for people who build things. Design Systems Engineer at GitHub. Living in San Francisco, CA.',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -10,7 +12,7 @@ module.exports = {
       options: {
         extensions: ['.mdx', '.md'],
         defaultLayouts: {
-          default: require.resolve('./src/components/layout.js'),
+          default: require.resolve('./src/templates/note-template.js'),
         },
       },
     },
@@ -25,15 +27,6 @@ module.exports = {
       resolve: 'gatsby-plugin-page-creator',
       options: {
         path: `${__dirname}/content/notes`,
-      },
-    },
-    {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
-      options: {
-        fonts: [
-          { family: 'IBM Plex Sans', variants: [400, 600] },
-          { family: 'IBM Plex Mono' },
-        ],
       },
     },
   ],

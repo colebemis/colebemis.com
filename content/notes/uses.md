@@ -1,0 +1,43 @@
+---
+title: Tools I use
+date: 2020-07-20
+published: true
+---
+
+- [15" Macbook Pro](#)
+- [iPad](#)
+- [iPhone](#)
+- [Chrome](#)
+  - Extensions:
+    - StayFocused
+    - 1Password
+    - Grammarly
+    - Pay by Privacy.com
+    - [Tabio](https://usetabio.com)
+    - [Lucid]()
+    - [Octolinker]()
+- [VS Code](#)
+  - Font family: [JetBrains Mono](#)
+  - Dark color theme: [GitHub Dark](#)
+  - Light color theme: [GitHub Light](#)
+  - Icon theme: [Simple icons](#)
+  - Extensions:
+- [Spotify](#)
+- [Todoist](#)
+- [Roam](#)
+- [Alfred](#)
+- [Annotate](#)
+- [Figma](#)
+- [Insomnia](#)
+- [Kap](#)
+- [Slack](#)
+- [Zoom](#)
+- [1Password](#)
+- [iTerm](#)
+- [dotfiles](#)
+- [Homebrew](#)
+- [Magnet](#)
+- [Fabulous](#)
+- [Fitbod](#)
+- [1.1.1.1](#)
+- [Excalidraw](#)
