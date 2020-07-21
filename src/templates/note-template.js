@@ -16,17 +16,17 @@ export default function Layout({ children, pageContext }) {
       </Helmet>
       <div
         sx={{
-          display: 'grid',
-          gridGap: [4, 5],
           maxWidth: 'container',
           px: [3, 5],
           py: [4, 5],
         }}
       >
-        <Link to="/" sx={{ color: 'accent' }}>
-          <Logo />
-        </Link>
-        <main sx={{ width: '100%' }}>
+        <div sx={{ mb: [4, 5] }}>
+          <Link to="/" sx={{ color: 'accent' }}>
+            <Logo />
+          </Link>
+        </div>
+        <main>
           <div sx={{ mb: [3, 4] }}>
             {!published ? (
               <div
