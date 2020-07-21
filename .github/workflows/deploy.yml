@@ -11,7 +11,9 @@ jobs:
       - uses: actions/setup-node@master
         with:
           version: 10
-      - name: Install
+      - name: Install dependencies
         run: yarn install
-      - name: Deploy
-        run: yarn deploy
+      - name: Build
+        run: yarn build
+      - name: Deploy to GitHub Pages
+        run: gh-pages --dist public --repo git:${GITHUB_TOKEN}@github.com:colebemis/colebemis.github.io.git --branch master
