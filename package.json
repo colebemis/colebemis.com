@@ -6,9 +6,7 @@
     "develop": "gatsby develop",
     "build": "gatsby build",
     "clean": "gatsby clean",
-    "start": "npm run develop",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages --dist public --repo git@github.com:colebemis/colebemis.github.io.git --branch master"
+    "start": "npm run develop"
   },
   "repository": "colebemis/colebemis.com",
   "dependencies": {
