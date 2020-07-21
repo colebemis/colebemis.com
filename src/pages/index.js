@@ -133,6 +133,15 @@ export default function Index() {
             ))}
           </div>
         </div>
+
+        <div>
+          <a
+            href="https://github.com/colebemis/colebemis.com"
+            sx={{ variant: 'styles.a' }}
+          >
+            View source
+          </a>
+        </div>
       </div>
     </div>
   )
