@@ -16,4 +16,4 @@ jobs:
       - name: Build
         run: yarn build
       - name: Deploy to GitHub Pages
-        run: npx gh-pages --dist public --repo git:${GITHUB_TOKEN}@github.com:colebemis/colebemis.github.io.git --branch master
+        run: npx gh-pages --dist public --repo 'git:${{ secrets.GITHUB_TOKEN }}@github.com:colebemis/colebemis.github.io.git' --branch master
