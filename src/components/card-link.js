@@ -28,7 +28,7 @@ export default function CardLink({ title, description, href }) {
       >
         {title}
       </span>
-      <span sx={{ fontSize: 2 }}>{description}</span>
+      <span sx={{ fontSize: 1 }}>{description}</span>
     </a>
   )
 }

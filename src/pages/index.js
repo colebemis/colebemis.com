@@ -48,8 +48,9 @@ export default function Index() {
       <div
         sx={{
           display: 'grid',
-          gridGap: 5,
-          p: 5,
+          gridGap: [4, 5],
+          px: [3, 5],
+          py: [4, 5],
         }}
       >
         <Link to="/" sx={{ display: 'flex' }}>
@@ -58,39 +59,32 @@ export default function Index() {
         <div>
           <h1 sx={{ variant: 'styles.h1', mt: 0, mb: 3 }}>Cole Bemis</h1>
 
-          <p sx={{ fontSize: 4, mt: 0, mb: 4 }}>
-            Building things for people who build things.
-            <br />
-            Design Systems Engineer at GitHub.
-            <br />
-            Living in San Francisco, CA.
+          <p sx={{ fontSize: [3, 4], mt: 0, mb: [3, 4], maxWidth: '45ch' }}>
+            Building things for people who build things. Design Systems Engineer
+            at GitHub. Living in San Francisco, CA.
           </p>
 
           <a
             href="https://twitter.com/colebemis"
-            sx={{ variant: 'styles.a', mr: 4 }}
+            sx={{ variant: 'styles.a', mr: [3, 4] }}
           >
             Twitter
           </a>
-          <a
-            href="https://github.com/colebemis"
-            sx={{ variant: 'styles.a', mr: 4 }}
-          >
+          <a href="https://github.com/colebemis" sx={{ variant: 'styles.a' }}>
             GitHub
-          </a>
-          <a href="mailto:cole@colebemis.com" sx={{ variant: 'styles.a' }}>
-            cole@colebemis.com
           </a>
         </div>
 
         <div>
-          <h2 sx={{ variant: 'styles.h2', mt: 0, mb: 4 }}>Projects</h2>
+          <div sx={{ mb: [3, 4] }}>
+            <h2 sx={{ variant: 'styles.h2', m: 0 }}>Projects</h2>
+          </div>
 
           <div
             sx={{
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-              gridGap: 4,
+              gridGap: [3, 4],
               width: '100%',
             }}
           >
@@ -115,7 +109,7 @@ export default function Index() {
         </div>
 
         <div>
-          <div sx={{ mb: 4 }}>
+          <div sx={{ mb: [3, 4] }}>
             <h2 sx={{ variant: 'styles.h2', mt: 0, mb: 1 }}>Digital garden</h2>
 
             <p sx={{ m: 0 }}>A place for my ideas to grow</p>
@@ -125,7 +119,7 @@ export default function Index() {
             sx={{
               display: 'grid',
               gridTemplateColumns: 'repeat(auto-fill, minmax(300px, 1fr))',
-              gridGap: 4,
+              gridGap: [3, 4],
             }}
           >
             {notes.map((note) => (

@@ -17,21 +17,22 @@ export default function Layout({ children, pageContext }) {
       <div
         sx={{
           display: 'grid',
-          gridGap: 5,
+          gridGap: [4, 5],
           maxWidth: 'container',
-          p: 5,
+          px: [3, 5],
+          py: [4, 5],
         }}
       >
         <Link to="/" sx={{ color: 'accent' }}>
           <Logo />
         </Link>
         <main sx={{ width: '100%' }}>
-          <div sx={{ mb: 4 }}>
+          <div sx={{ mb: [3, 4] }}>
             {!published ? (
               <div
                 sx={{
                   display: 'inline-block',
-                  fontSize: 2,
+                  fontSize: 1,
                   py: 1,
                   px: 2,
                   mb: 2,
@@ -43,7 +44,7 @@ export default function Layout({ children, pageContext }) {
             ) : null}
             <h1 sx={{ variant: 'styles.h1', mt: 0, mb: 0 }}>{title}</h1>
             {date ? (
-              <p sx={{ m: 0, fontSize: 2 }}>Updated {timeago.format(date)}</p>
+              <p sx={{ m: 0, fontSize: 1 }}>Updated {timeago.format(date)}</p>
             ) : null}
           </div>
           {children}

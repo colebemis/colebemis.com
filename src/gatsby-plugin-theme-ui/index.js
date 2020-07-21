@@ -10,6 +10,7 @@ export default {
       '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"',
     mono: 'SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace',
   },
+  fontSizes: [14, 16, 18, 20, 24, 32, 48, 64, 72, 96],
   fontWeights: {
     body: 400,
     heading: 700,
@@ -19,7 +20,7 @@ export default {
     heading: 1.25,
   },
   sizes: {
-    container: '65ch',
+    container: '70ch',
   },
   text: {
     heading: {
@@ -30,7 +31,7 @@ export default {
   styles: {
     root: {
       fontFamily: 'body',
-      fontSize: 3,
+      fontSize: 2,
       lineHeight: 'body',
     },
     a: {
@@ -44,27 +45,27 @@ export default {
     },
     h1: {
       variant: 'text.heading',
-      fontSize: 6,
+      fontSize: [5, 6],
     },
     h2: {
       variant: 'text.heading',
-      fontSize: 5,
+      fontSize: [4, 5],
     },
     h3: {
       variant: 'text.heading',
-      fontSize: 4,
+      fontSize: [3, 4],
     },
     h4: {
       variant: 'text.heading',
-      fontSize: 3,
+      fontSize: [2, 3],
     },
     h5: {
       variant: 'text.heading',
-      fontSize: 2,
+      fontSize: [1, 2],
     },
     h6: {
       variant: 'text.heading',
-      fontSize: 1,
+      fontSize: [0, 1],
     },
     pre: {
       p: 3,
@@ -73,13 +74,13 @@ export default {
     },
     code: {
       fontFamily: 'mono',
-      fontSize: '80%',
+      fontSize: '85%',
     },
     inlineCode: {
       p: '0.1em 0.25em',
       bg: 'muted',
       fontFamily: 'mono',
-      fontSize: '80%',
+      fontSize: '85%',
     },
     img: {
       maxWidth: '100%',
