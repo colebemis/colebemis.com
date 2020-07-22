@@ -3,7 +3,7 @@ export default {
     text: 'rgba(0,0,0,0.87)',
     background: '#fff',
     muted: '#f0f0f0',
-    accent: '#eb4962',
+    accent: '#ff2467',
   },
   fonts: {
     body:
