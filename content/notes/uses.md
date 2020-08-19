@@ -9,7 +9,7 @@ published: true
 - iPhone 6
 - [Chrome](https://www.google.com/chrome/)
   - Extensions:
-    - [StayFocused](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en)
+    - [StayFocusd](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en)
     - [1Password](https://1password.com/downloads/mac/#browsers)
     - [Grammarly](https://www.grammarly.com/)
     - [Pay by Privacy.com](https://privacy.com/)
