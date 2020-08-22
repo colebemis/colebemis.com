@@ -1,12 +1,13 @@
 ---
 title: Tools I use
-date: 2020-07-20
+date: 2020-08-21
 published: true
 ---
 
-- Macbook Pro (15-inch, 2017)
+- Macbook Pro (16-inch, 2019)
 - iPad (6th generation)
 - iPhone 6
+- AirPods Pro
 - [Chrome](https://www.google.com/chrome/)
   - Extensions:
     - [StayFocusd](https://chrome.google.com/webstore/detail/stayfocusd/laankejkbhbdhmipfmgcngdelahlfoji?hl=en)
