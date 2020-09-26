@@ -4,7 +4,7 @@ date: 2020-09-25
 published: true
 ---
 
-0. [Set up changesets](/set-up-changesets)
+0. [Set up changesets in your GitHub repository](/set-up-changesets)
 
 1. Create a feature branch
 
