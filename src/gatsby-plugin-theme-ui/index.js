@@ -36,9 +36,6 @@ export default {
     },
     a: {
       color: 'inherit',
-      textDecoration: 'none',
-      borderBottom: '1px solid',
-      borderColor: 'currentColor',
       ':hover': {
         color: 'accent',
       },

@@ -44,7 +44,9 @@ export default function Layout({ children, pageContext }) {
             ) : null}
             <h1 sx={{ variant: 'styles.h1', mt: 0, mb: 0 }}>{title}</h1>
             {date ? (
-              <p sx={{ m: 0, fontSize: 1 }}>Updated {timeago.format(date)}</p>
+              <p sx={{ m: 0, mt: 2, fontSize: 1 }}>
+                Updated {timeago.format(date)}
+              </p>
             ) : null}
           </div>
           {children}
