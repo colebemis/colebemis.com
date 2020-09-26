@@ -1,5 +1,5 @@
 ---
-title: Set up changesets
+title: Set up changesets in a GitHub repository
 date: 2020-09-25
 published: true
 ---
