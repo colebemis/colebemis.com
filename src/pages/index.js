@@ -93,6 +93,12 @@ export default function Index() {
               description="Simply beautiful open source icons"
               href="https://feathericons.com"
             />
+    
+            <CardLink
+              title="Hosted Export Figma plugin"
+              description="Copy hosted image URLs for any frame inside Figma"
+              href="https://www.figma.com/community/plugin/886688414738743606"
+            />
 
             <CardLink
               title="Tabio"
