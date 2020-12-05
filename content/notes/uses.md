@@ -1,6 +1,6 @@
 ---
 title: Tools I use
-date: 2020-08-21
+date: 2020-09-25
 published: true
 ---
 
@@ -17,6 +17,7 @@ published: true
     - [Tabio](https://usetabio.com)
     - [Lucid](https://chrome.google.com/webstore/detail/lucid/achogfadpkcepkepcpegehpiiioihmik?hl=en)
     - [Octolinker](https://octolinker.now.sh/)
+    - [Honey](https://chrome.google.com/webstore/detail/honey/bmnlcjabgnpnenekpadlanbbkooimhnj)
 - [VS Code](https://code.visualstudio.com/)
   - Font family: [JetBrains Mono](https://www.jetbrains.com/lp/mono/)
   - Dark color theme: [GitHub Dark](https://marketplace.visualstudio.com/items?itemName=GitHub.github-vscode-theme)
@@ -49,14 +50,13 @@ published: true
     - [Content Reel](https://www.figma.com/community/plugin/731627216655469013/Content-Reel)
     - [Super Tidy](https://www.figma.com/community/plugin/731260060173130163/Super-Tidy)
     - [Time Machine](https://www.figma.com/community/plugin/734492262527930956/Time-Machine)
+    - [Hosted Export](https://www.figma.com/community/plugin/886688414738743606/Hosted-Export)
 - [Insomnia](https://insomnia.rest/)
 - [Slack](https://slack.com/)
 - [Zoom](https://zoom.us)
 - [1Password](https://1password.com/)
 - [iTerm](https://www.iterm2.com/)
-- [dotfiles](https://github.com/colebemis/dotfiles)
 - [Homebrew](https://brew.sh/)
 - [Magnet](https://magnet.crowdcafe.com/)
-- [Fabulous](https://www.thefabulous.co)
-- [Fitbod](https://www.fitbod.me/)
 - [1.1.1.1](https://1.1.1.1/)
+- [DuckDuckGo](https://duckduckgo.com/)
